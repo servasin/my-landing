@@ -496,11 +496,11 @@ p {
 	margin: 30px 0 0;
 }
 
-.social__item {
+.footer__item {
 	margin-right: 20px;
 }
 
-.social__link {
+.footer__link {
 	display: block;
 	width: 40px;
 	height: 40px;
@@ -508,25 +508,25 @@ p {
 	background-color: transparent;
 }
 
-.social__link--vk {
+.footer__link--vk {
 	background-image: url(../img/icons/social.png);
 	background-repeat: no-repeat;
 	background-position: -1%;
 }
 
-.social__link--fb {
+.footer__link--fb {
 	background-image: url(../img/icons/social.png);
 	background-position: 35%;
 	background-repeat: no-repeat;
 }
 
-.social__link--tw {
+.footer__link--tw {
 	background-image: url(../img/icons/social.png);
 	background-position: 70%;
 	background-repeat: no-repeat;
 }
 
-.social__link--inst {
+.footer__link--inst {
 	background-image: url(../img/icons/social.png);
 	background-position: 105%;
 	background-repeat: no-repeat;
