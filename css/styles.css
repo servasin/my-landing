@@ -506,30 +506,27 @@ p {
 	height: 40px;
 	border: none;
 	background-color: transparent;
+	background-repeat: no-repeat;
 }
 
 .footer__link--vk {
 	background-image: url(../img/icons/social.png);
-	background-repeat: no-repeat;
 	background-position: -1%;
 }
 
 .footer__link--fb {
 	background-image: url(../img/icons/social.png);
 	background-position: 35%;
-	background-repeat: no-repeat;
 }
 
 .footer__link--tw {
 	background-image: url(../img/icons/social.png);
 	background-position: 70%;
-	background-repeat: no-repeat;
 }
 
 .footer__link--inst {
 	background-image: url(../img/icons/social.png);
 	background-position: 105%;
-	background-repeat: no-repeat;
 }
 
 .footer__dark-bar {
