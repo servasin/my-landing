@@ -1,9 +1,11 @@
-@font-face {
+/* @font-face {
 	font-weight: 400;
 	font-family: 'Roboto';
 	font-style: normal;
 	src: url(../fonts/Roboto.woff2) format('woff2');
-}
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic');
 
 html {
 	box-sizing: border-box;
@@ -50,7 +52,7 @@ p {
 }
 
 .intro {
-	height: 550px;
+	height: 630px;
 	position: relative;
 	overflow: hidden;
 	padding: 30px 0;
@@ -190,7 +192,7 @@ p {
 }
 
 .intro__title {
-	font-size: 45px;
+	font-size: 90px;
 	font-weight: bold;
 	margin-top: 0;
 }
@@ -223,12 +225,12 @@ p {
 	width: 960px;
 	background-image: url(../img/ellipse.svg);
 	background-repeat: no-repeat;
-	background-position: 100% 100%;
+	background-position: 450% 100%;
 	background-size: contain;
 }
 
 .photo-wrapper__item {
-	height:550px;
+	height:630px;
 	object-fit: contain;
 	display: block;
 	margin: auto;
